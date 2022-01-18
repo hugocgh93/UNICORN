@@ -44,13 +44,27 @@
         <main class="container">
             <!-- Card #1 -->
             <div class="card-project">
-                <img src="images/projects/project_mobile_1.jpg" alt="Project mobile #1">
+
+                <picture>
+                    <!--Ranger les images par ordre de taille d'écran: du plus grand au plus petit-->
+                    <source srcset="images/projects/project_1.png" media="(mix-width: 1200px)">
+                    <img src="images/projects/project_mobile_1.jpg" alt="project_mobile_1">
+                </picture>
+
                 <p>Branding for a fintech company based on Japanese technique Kumiko highlighting the flexibility and crafts menship of CMA</p>
+            
             </div>
 
             <!-- Card #2 -->
             <div class="card-project">
-                <img src="images/projects/project_mobile_3.jpg" alt="Project mobile #3">
+
+                <picture>
+
+                    <source srcset="images/projects/project_3.png" media="(mix-width: 1200px)">
+                    <img src="images/projects/project_mobile_3.jpg" alt="project_mobile_3">
+
+                </picture>
+
                 <p>Showing heart and soul behind the VC fund for consumer technologies with references Le Petite Prince</p>
             </div>
 

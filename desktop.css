@@ -1,0 +1,82 @@
+
+/* Activation de cette feuille CSS si l'écran fait au minimum 1200 px */
+
+@media screen and (min-width: 1200px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
+
+    .menu-desktop li a {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    header h1 {
+        font-size: 4em;
+    }
+
+    header p {
+        font-size: 1.4em;
+    }
+
+    header img {
+        width: 40%;
+        margin: 200px auto
+    }
+
+    .card-project {
+        position: relative;
+    }
+
+    .card-project p {
+        font-size: 1.2em;
+        position: absolute;
+        width: 25%;
+        bottom: 30px;
+        left: 20px;
+    }
+
+    .btn-light {
+        display: none;
+    }
+
+    .newsletter {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse; /* inverse l'ordre d'affichage (ce qui est à gauche passe à droite et inversement)*/
+        padding: 50px;
+    }
+
+    .newsletter h2 {
+        font-size: 2.5em;
+    }
+
+    .newsletter img {
+        width: 50%;
+    }
+
+    .btn-dark {
+        display: inline; /* redonne l'état initial de l'élément */
+    }
+
+    footer {
+        display: flex;
+        justify-content: right;
+    }
+
+footer a {
+    border: none;
+}
+
+}
